@@ -83,6 +83,22 @@ p_theta(y|x)=p_theta(x,y)/p_theta(x)
 
 F1-score：F1 = 2*Prec*Rec/(Prec+Rec)
 
+准确率和召回率的权衡
+
+阈值越高，准确率越低，召回率越低
+
+阈值越低，准确率越低，召回率越高
+
+F1度量
+
+F1 = 2*(Prec*Rec)/(Prec+Rec)
+
+基于排序的度量:ROC曲线下面积(AUC)
+
+纵坐标：True Positive Rate
+
+横坐标：False Positive Rate
+
 
 
 
